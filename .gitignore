@@ -1,0 +1,4 @@
+# Apps Script CLI config (contains Script ID — keep private)
+.clasp.json
+gigs/.clasp.json
+travel/.clasp.json
