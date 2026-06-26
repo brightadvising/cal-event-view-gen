@@ -57,10 +57,10 @@ const CONFIG = {
   CALENDAR_ID: "primary",              // Your calendar ID. "primary" = main calendar.
   TITLE_TAG: "⇄",                      // The symbol you add to your event titles to make them show in the doc. Use any symbol you like — e.g., "⇄", "★", "#travel".
   LOOKAHEAD_DAYS: 365,                 // How many days ahead to scan.
-  DOC_TITLE: "Upcoming Travel",   // ← Add your document title here. This appears as the heading at the top of the doc.
+  DOC_TITLE: "Upcoming Events",        // ← Add your document title here. This appears as the heading at the top of the doc.
   TRIM_LOCATION: true,                 // Location display: true = "City, ST" only | "full" = cleaned full address | false = raw as entered
-  DOC_ID: "16GOvkvQfNLuI3Cn72DLk2Q_v_AOfAYUb-QYYXAWg240",   // ← REQUIRED: Google Doc ID (found in the doc URL between "/d/" and "/edit").
-  WEB_APP_DEPLOYMENT_ID: "AKfycbzGFWvAuvhlfKQafyoX-Yyc6yf7FxCqZTBSI-K6-eis9elbWFBlfVLxlwGPGiBbD0U-Pw", // ← REQUIRED for mobile refresh. Generated when you deploy this script as a web app via Deploy > New deployment.
+  DOC_ID: "PASTE_YOUR_DOC_ID_HERE",                        // ← REQUIRED: Google Doc ID (found in the doc URL between "/d/" and "/edit").
+  WEB_APP_DEPLOYMENT_ID: "PASTE_YOUR_DEPLOYMENT_ID_HERE",  // ← REQUIRED for mobile refresh. Generated when you deploy this script as a web app via Deploy > New deployment.
 
   // ── Date formatting ────────────────────────────────────────
   DATE_PRESET: "full",                 // "short"      = Mon, Apr 14
@@ -69,7 +69,7 @@ const CONFIG = {
                                        // "full"       = Monday, April 14
                                        // "custom"     = uses DATE_FORMAT below
   SHOW_YEAR: false,                    // Append year to any preset. true = Monday, April 14, 2026 | false = Monday, April 14
-  DATE_FORMAT: "EEE, MMM d",          // Only used when DATE_PRESET is "custom". Standard date pattern.
+  DATE_FORMAT: "EEEE, MMM d",          // Only used when DATE_PRESET is "custom". Standard date pattern.
                                        // Day name:   EEE = Mon  |  EEEE = Monday
                                        // Month name: MMM = Apr  |  MMMM = April
                                        // Month num:  M = 4      |  MM = 04
@@ -77,7 +77,7 @@ const CONFIG = {
                                        // Year:       yy = 26    |  yyyy = 2026
 
   // ── Time formatting ────────────────────────────────────────
-  SHOW_TIME: false,                    // Show start and end time below the date. For all-day events, time is always hidden.
+  SHOW_TIME: false,                   // Show start and end time below the date. For all-day events, time is always hidden.
   AMPM_LCASE: true,                    // true = "7:00 pm"  |  false = "7:00 PM"
   TRIM_HOUR: true,                     // true = "7 pm" instead of "7:00 pm". Half-hours unaffected: "7:30 pm" stays as-is.
   SHOW_ALLDAY: false,                  // For all-day events: true = show "All day" below the date | false = show nothing

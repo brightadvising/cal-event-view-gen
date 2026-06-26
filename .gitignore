@@ -2,3 +2,10 @@
 .clasp.json
 gigs/.clasp.json
 travel/.clasp.json
+
+# Windows / Mac system files
+desktop.ini
+.DS_Store
+
+# clasp log output
+*.log
