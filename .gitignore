@@ -9,3 +9,7 @@ desktop.ini
 
 # clasp log output
 *.log
+
+# Internal project tracking (kept on Drive, not published)
+PROJECT.md
+history.md
